@@ -6,7 +6,6 @@ import numpy as np
 import pandas as pd
 from scipy.stats import skew, kurtosis, probplot
 from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
-from sklearn.metrics import mean_squared_error, mean_absolute_percentage_error, mean_absolute_error
 from sklearn.model_selection import train_test_split
 import warnings
 warnings.filterwarnings('ignore')
