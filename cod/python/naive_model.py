@@ -1,3 +1,11 @@
+#Carga de libraries
+import numpy as np
+import pandas as pd
+from sklearn.metrics import mean_squared_error, mean_absolute_percentage_error, mean_absolute_error
+import warnings
+warnings.filterwarnings('ignore')
+
+
 class naive_model:
     def __init__(self, variable_objetivo, objeto_serietemporal, start_test_date, end_test_date):
         print("Construyendo modelo naive")

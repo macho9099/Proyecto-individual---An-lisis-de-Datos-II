@@ -1,3 +1,13 @@
+#Carga de libraries
+import statsmodels.api as sm
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+from sklearn.metrics import mean_squared_error, mean_absolute_percentage_error, mean_absolute_error
+import warnings
+warnings.filterwarnings('ignore')
+import itertools
+
 class sarima_optimizer:
     def __init__(self, variable_objetivo, objeto_serietemporal, start_date_test, end_date_test):
         print("###################################################################")
