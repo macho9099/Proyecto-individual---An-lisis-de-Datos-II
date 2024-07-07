@@ -1,3 +1,14 @@
+#Carga de libraries
+import statsmodels.api as sm
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+from sklearn.metrics import mean_squared_error, mean_absolute_percentage_error, mean_absolute_error
+import warnings
+warnings.filterwarnings('ignore')
+from statsmodels.tsa.seasonal import seasonal_decompose
+from statsmodels.tsa.forecasting.stl import STLForecast
+
 from statsmodels.tsa.arima.model import ARIMA
 
 class STL_model:
